@@ -374,9 +374,7 @@
       "copy": "Copy",
       "show": "Show",
       "replace": "Replace",
-      "append": "Append",
-      "supports_markdown": "Supports {markdown_help_link}",
-      "markdown": "Markdown"
+      "append": "Append"
     },
     "components": {
       "selectors": {
@@ -2093,7 +2091,7 @@
           },
           "system": {
             "main": "System",
-            "secondary": "Create backups, check logs or reboot your system"
+            "secondary": "Create backups, check logs, or reboot your system"
           },
           "about": {
             "main": "About",
@@ -2115,8 +2113,7 @@
           "hide_url": "Hide URL",
           "copy_link": "Copy link",
           "graph": {
-            "toggle_physics": "Toggle physics",
-            "toggle_labels": "Toggle labels"
+            "toggle_physics": "Toggle physics"
           }
         },
         "updates": {
@@ -2223,10 +2220,10 @@
           "add_label": "Create label",
           "manage_labels": "Manage labels",
           "no_labels": "You don't have any labels",
-          "introduction": "Labels can help you organize your areas, devices and entities. They can be used to filter in the UI, or use them as a target in automations.",
-          "introduction2": "Go to the area, device or entity you want to add a label to, and press the edit button to assign labels to them.",
+          "introduction": "Labels can help you organize your areas, devices, and entities. They can be used to filter in the UI, or use them as a target in automations.",
+          "introduction2": "Go to the area, device, or entity you want to add a label to. Press the edit button to assign labels to them.",
           "confirm_remove_title": "Remove label?",
-          "confirm_remove": "Are you sure you want to remove label {label}? It will be removed from all areas, devices and entities.",
+          "confirm_remove": "Are you sure you want to remove label {label}? It will be removed from all areas, devices, and entities.",
           "detail": {
             "new_label": "New label",
             "name": "Name",
@@ -2318,7 +2315,7 @@
           "locations": "Locations",
           "create": {
             "title": "Create backup",
-            "description": "Create a backup of your current configuration directory, this will take some time.",
+            "description": "Create a backup of your current configuration directory. This will take some time.",
             "confirm": "create"
           },
           "remove": {
@@ -4744,7 +4741,7 @@
             "feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
             "information3": "This service is run by our partner ",
             "information3a": ", a company founded by the founders of Home Assistant.",
-            "information4": "By registering an account, you agree to the following terms and conditions.",
+            "information4": "By registering an account you agree to the following terms and conditions.",
             "link_terms_conditions": "Terms and conditions",
             "link_privacy_policy": "Privacy policy",
             "create_account": "Create account",
@@ -4762,11 +4759,11 @@
             "download_support_package": "Download support package",
             "reset_cloud_data": "Reset cloud data",
             "reset_data_confirm_title": "Reset cloud data?",
-            "reset_data_confirm_text": "This will reset all your cloud settings. This includes your remote connection, Google Assistant, and Amazon Alexa integrations. This action cannot be undone.",
+            "reset_data_confirm_text": "This will reset all your cloud settings. This includes your remote connection, Google Assistant and Amazon Alexa integrations. This action cannot be undone.",
             "reset": "Reset",
             "reset_data_failed": "Failed to reset cloud data",
             "thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
-            "nabu_casa_account": "Nabu Casa account",
+            "nabu_casa_account": "Nabu Casa Account",
             "connection_status": "Cloud connection status",
             "manage_account": "Manage account",
             "sign_out": "Sign out",
@@ -4805,7 +4802,7 @@
               "cerificate_loading": "Your certificate is loading.",
               "cerificate_loaded": "Your certificate is loaded, waiting for validation.",
               "cerificate_error": "There was an error generating the certificate, check your logs.",
-              "info": "Home Assistant Cloud provides secure remote access to your instance while away from home. For more information on remote access and these settings, visit our security documentation.",
+              "info": "Home Assistant Cloud provides a secure remote access to your instance while away from home. For more information on remote access and these settings visit our security documentation.",
               "info_instance_will_be_available": "Your instance will be available at your Nabu Casa URL.",
               "link_learn_how_it_works": "Learn how it works",
               "security_options": "Security options",
@@ -5524,7 +5521,6 @@
           "connection_slot_allocations_monitor": "Connection slot allocations monitor",
           "connection_slot_allocations_monitor_details": "The connection slot allocations monitor displays the (GATT) connection slot allocations for the adapter. This adapter supports up to {slots} simultaneous connections. Each remote Bluetooth device that requires an active connection will use one connection slot while the Bluetooth device is connecting or connected.",
           "connection_monitor": "Connection monitor",
-          "visualization": "Visualization",
           "used_connection_slot_allocations": "Used connection slot allocations",
           "no_connections": "No active connections",
           "no_advertisements_found": "No matching Bluetooth advertisements found",
@@ -5542,12 +5538,7 @@
           "manufacturer_data": "Manufacturer data",
           "service_data": "Service data",
           "service_uuids": "Service UUIDs",
-          "copy_to_clipboard": "[%key:ui::panel::config::automation::editor::copy_to_clipboard%]",
-          "area": "Area",
-          "core": "Home Assistant",
-          "scanners": "Scanners",
-          "known_devices": "Known devices",
-          "unknown_devices": "Unknown devices"
+          "copy_to_clipboard": "[%key:ui::panel::config::automation::editor::copy_to_clipboard%]"
         },
         "dhcp": {
           "title": "DHCP discovery",
